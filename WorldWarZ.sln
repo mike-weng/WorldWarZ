@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{47A20E7A-7284-D71E-36CC-9401B072A1BD}") = "WorldWarZ", "Assembly-CSharp.csproj", "{D893DEE6-7C7B-2E39-441F-61A247E1693A}"
+EndProject
+Project("{47A20E7A-7284-D71E-36CC-9401B072A1BD}") = "WorldWarZ", "Assembly-CSharp-Editor.csproj", "{073C31BF-AD21-856D-C535-D6A4065EE780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D893DEE6-7C7B-2E39-441F-61A247E1693A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D893DEE6-7C7B-2E39-441F-61A247E1693A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D893DEE6-7C7B-2E39-441F-61A247E1693A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D893DEE6-7C7B-2E39-441F-61A247E1693A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073C31BF-AD21-856D-C535-D6A4065EE780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073C31BF-AD21-856D-C535-D6A4065EE780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073C31BF-AD21-856D-C535-D6A4065EE780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073C31BF-AD21-856D-C535-D6A4065EE780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
