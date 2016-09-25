@@ -93,6 +93,7 @@
      <Compile Include="Assets\Scripts\MeleeCharge.cs" />
      <Compile Include="Assets\Scripts\MeleeNormalAttack.cs" />
      <Compile Include="Assets\Scripts\MeleeSlash.cs" />
+     <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\ParticleCollider.cs" />
      <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
