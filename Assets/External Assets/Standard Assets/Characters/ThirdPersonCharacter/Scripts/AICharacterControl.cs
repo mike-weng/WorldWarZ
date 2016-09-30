@@ -4,11 +4,11 @@ using UnityEngine;
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
     [RequireComponent(typeof (NavMeshAgent))]
-    [RequireComponent(typeof (ThirdPersonCharacter))]
+    [RequireComponent(typeof (PlayerCharacter))]
     public class AICharacterControl : MonoBehaviour
     {
         public NavMeshAgent agent { get; private set; }             // the navmesh agent required for the path finding
-        public ThirdPersonCharacter character { get; private set; } // the character we are controlling
+        public PlayerCharacter character { get; private set; } // the character we are controlling
         public Transform target;                                    // target to aim for
 
 
@@ -16,7 +16,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
             // get the components on the object we need ( should not be null due to require component so no need to check )
             agent = GetComponentInChildren<NavMeshAgent>();
-            character = GetComponent<ThirdPersonCharacter>();
+            character = GetComponent<PlayerCharacter>();
 
 	        agent.updateRotation = false;
 	        agent.updatePosition = true;
@@ -29,10 +29,17 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 agent.SetDestination(target.position);
 
             if (agent.remainingDistance > agent.stoppingDistance)
-                character.Move(agent.desiredVelocity, false, false);
+            {
+                character.Move(agent.desiredVelocity, false, false, false, false, false, false);
+                character.UpdateAnimator(agent.desiredVelocity, false, false, false, false);
+            }
             else
-                character.Move(Vector3.zero, false, false);
+            {
+                character.Move(Vector3.zero, false, false, false, false, false, false);
+                character.UpdateAnimator(Vector3.zero, false, false, false, false);
+            }
         }
+        
 
 
         public void SetTarget(Transform target)
