@@ -26,7 +26,10 @@ public class ZombieCharacter : Character
         }
         else if (usingSkill1)
         {
-            skill1.HandlePhysics();
+            if (!skill1.isExecuting)
+            {
+                skill1.HandlePhysics();
+            }
         }
         else if (usingSkill2)
         {

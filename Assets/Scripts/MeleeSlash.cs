@@ -7,7 +7,7 @@ public class MeleeSlash : Skill
     public override void Start()
     {
         base.Start();
-        base.changeInLife = 20.0f;
+        base.changeInLife = 100.0f;
     }
 
     // Update is called once per frame
@@ -24,6 +24,7 @@ public class MeleeSlash : Skill
     public override void UpdateAnimator()
     {
         animator.SetTrigger("Skill1");
+        GetComponent<ParticleSystem>().Play();
         Invoke("DisableCollision", 0.5f);
     }
 
@@ -41,7 +42,7 @@ public class MeleeSlash : Skill
             this.collidedCharacter = characterObject;
             characterComponent.TakeImpact();
             characterObject.GetComponent<Health>().DecreaseHealth(changeInLife);
-            //			Invoke ("PushBack", 0.3f);
+            Invoke ("PushBack", 0.3f);
         }
     }
 

@@ -99,11 +99,14 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Skill.cs" />
+     <Compile Include="Assets\Scripts\SmoothCamera.cs" />
      <Compile Include="Assets\Scripts\StaticCharge.cs" />
      <Compile Include="Assets\Scripts\StatusEffect.cs" />
      <Compile Include="Assets\Scripts\VirtualJoystick.cs" />
      <Compile Include="Assets\Scripts\ZombieBite.cs" />
      <Compile Include="Assets\Scripts\ZombieCharacter.cs" />
+     <Compile Include="Assets\Scripts\ZombieSpawner.cs" />
+     <Compile Include="Assets\Scripts\ZombieSwing.cs" />
      <None Include="Assets\External Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\External Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\External Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

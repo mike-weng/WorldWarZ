@@ -24,7 +24,7 @@ public class ZombieBite : Skill
 
     public override void UpdateAnimator()
     {
-        animator.SetTrigger("Attack");
+        animator.SetTrigger("Skill1");
     }
 
     void EnableCollision()

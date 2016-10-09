@@ -1,4 +1,4 @@
-using System;
+
 using UnityEngine;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -21,7 +21,7 @@ public class AICharacterControl : MonoBehaviour
         // get the components on the object we need ( should not be null due to require component so no need to check )
         agent = GetComponentInChildren<NavMeshAgent>();
         character = GetComponent<Character>();
-
+        this.target = FindObjectOfType<PlayerCharacter>().transform;
         agent.updateRotation = false;
         agent.updatePosition = true;
     }
@@ -29,7 +29,6 @@ public class AICharacterControl : MonoBehaviour
 
     private void Update()
     {
-
         if (target != null)
             agent.SetDestination(target.position);
 
@@ -43,7 +42,21 @@ public class AICharacterControl : MonoBehaviour
         }
         else
         {
-            m_Attack = true;
+            if (character.GetComponent<Health>().health > 0)
+            {
+                float randomIndex = Random.Range(0, 2);
+                if (randomIndex == 0)
+                {
+                    m_Attack = true;
+                    print("normal");
+
+                }
+                else if (randomIndex == 1)
+                {
+                    m_Skill1 = true;
+                    print("skill1");
+                }
+            }
             character.Move(Vector3.zero, crouch, m_Jump, m_Attack, m_Skill1, m_Skill2, m_Skill3);
             character.UpdateAnimator(Vector3.zero, m_Attack, m_Skill1, m_Skill2, m_Skill3);
         }
