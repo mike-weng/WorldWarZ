@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
 	[Tooltip("The local player instance. Use this to know if the local player is represented in the Scene")]
 	public static GameObject LocalPlayerInstance;
-	private PlayerCharacter m_Character; // A reference to the ThirdPersonCharacter on the object
+	private Character m_Character; // A reference to the ThirdPersonCharacter on the object
 	private Transform m_Cam;                  // A reference to the main camera in the scenes transform
 	private Vector3 m_CamForward;             // The current forward direction of the camera
 	private Vector3 m_Move;

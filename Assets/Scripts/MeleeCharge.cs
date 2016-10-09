@@ -1,26 +1,53 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MeleeCharge : Skill {
-	private Animator animator;
+public class MeleeCharge : Skill
+{
+    // Use this for initialization
+    public override void Start()
+    {
+        base.Start();
+        base.changeInLife = 20.0f;
+    }
 
-	// Use this for initialization
-	void Start () {
-		animator = GetComponentInParent<Animator> ();
+    // Update is called once per frame
+    void Update()
+    {
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    }
 
-	public override void HandlePhysics() {
-		print ("Charge");
-	}
+    public override void HandlePhysics()
+    {
+        skillCollider.enabled = true;
+    }
 
-	public override void UpdateAnimator () {
-		print ("Update animator attack");
-		animator.SetTrigger("Skill2");
-	}
+    public override void UpdateAnimator()
+    {
+        animator.SetTrigger("Skill2");
+        Invoke("DisableCollision", 0.5f);
+    }
+
+    void DisableCollision()
+    {
+        GetComponent<SphereCollider>().enabled = false;
+    }
+
+    void OnTriggerEnter(Collider collider)
+    {
+        GameObject characterObject = collider.gameObject;
+        ZombieCharacter characterComponent = characterObject.GetComponent<ZombieCharacter>();
+        if (characterComponent)
+        {
+            this.collidedCharacter = characterObject;
+            characterComponent.TakeImpact();
+            characterObject.GetComponent<Health>().DecreaseHealth(changeInLife);
+            //			Invoke ("PushBack", 0.3f);
+        }
+    }
+
+    void PushBack()
+    {
+        Rigidbody rigidBody = collidedCharacter.GetComponent<Rigidbody>();
+        rigidBody.AddForce((collidedCharacter.transform.position - transform.position) * 5000f);
+    }
 }
