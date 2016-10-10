@@ -69,7 +69,7 @@
 			// Calculate diffuse RBG reflections
 			// (when calculating the reflected ray in our specular component)
 			float fAtt = 1;
-			float Kd = 0.5;
+			float Kd = 0.7;
 			float3 L = normalize(_PointLightPosition - worldVertex.xyz);
 			float LdotN = dot(L, normalize(worldNormal));
 			float3 dif = fAtt * _PointLightColor.rgb * Kd * v.color.rgb * saturate(LdotN);
