@@ -16,12 +16,12 @@ namespace UnityStandardAssets.CrossPlatformInput
         // This define is set or unset by a menu item that is included with
         // the Cross Platform Input package.
 
-#if !UNITY_EDITOR
-	void OnEnable()
-	{
-		CheckEnableControlRig();
-	}
-	#endif
+//#if !UNITY_EDITOR
+//	void OnEnable()
+//	{
+//		CheckEnableControlRig();
+//	}
+//	#endif
 
         private void Start()
         {
@@ -41,37 +41,37 @@ namespace UnityStandardAssets.CrossPlatformInput
             }
         }
 
-#if UNITY_EDITOR
-
-        private void OnEnable()
-        {
-            EditorUserBuildSettings.activeBuildTargetChanged += Update;
-            EditorApplication.update += Update;
-        }
-
-
-        private void OnDisable()
-        {
-            EditorUserBuildSettings.activeBuildTargetChanged -= Update;
-            EditorApplication.update -= Update;
-        }
-
-
-        private void Update()
-        {
-            CheckEnableControlRig();
-        }
-#endif
-
-
-        private void CheckEnableControlRig()
-        {
-#if MOBILE_INPUT
-		EnableControlRig(true);
-		#else
-            EnableControlRig(false);
-#endif
-        }
+//#if UNITY_EDITOR
+//
+//        private void OnEnable()
+//        {
+//            EditorUserBuildSettings.activeBuildTargetChanged += Update;
+//            EditorApplication.update += Update;
+//        }
+//
+//
+//        private void OnDisable()
+//        {
+//            EditorUserBuildSettings.activeBuildTargetChanged -= Update;
+//            EditorApplication.update -= Update;
+//        }
+//
+//
+//        private void Update()
+//        {
+//            CheckEnableControlRig();
+//        }
+//#endif
+//
+//
+//        private void CheckEnableControlRig()
+//        {
+//#if MOBILE_INPUT
+//		EnableControlRig(true);
+//		#else
+//            EnableControlRig(false);
+//#endif
+//        }
 
 
         private void EnableControlRig(bool enabled)

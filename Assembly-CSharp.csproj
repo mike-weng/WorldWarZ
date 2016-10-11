@@ -115,13 +115,20 @@
      <Compile Include="Assets\Scripts\ZombieCharacter.cs" />
      <Compile Include="Assets\Scripts\ZombieSpawner.cs" />
      <Compile Include="Assets\Scripts\ZombieSwing.cs" />
+     <Compile Include="Assets\Shading\Moon.cs" />
+     <Compile Include="Assets\Shading\TerrainShading.cs" />
+     <None Include="Assets\Shading\Skyboxes\Day-Night Skyboxes\readme.txt" />
+     <None Include="Assets\Shading\PhongShader.shader" />
      <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Shading\Skyboxes\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
      <None Include="Assets\External Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Shading\WaterShader.shader" />
      <None Include="Assets\External Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\External Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\MedievalHouse\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

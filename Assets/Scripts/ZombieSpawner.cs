@@ -19,10 +19,10 @@ public class ZombieSpawner : MonoBehaviour {
 
     void SpawnZombie() {
         for (int i = 0; i < numPerSpawn; i++) {
-            float maxX = terrain.terrainData.size.x / 2;
-            float minX = -terrain.terrainData.size.x / 2;
-            float maxZ = terrain.terrainData.size.z / 2;
-            float minZ = -terrain.terrainData.size.z / 2;
+            float maxX = terrain.terrainData.size.x;
+            float minX = 0;
+            float maxZ = terrain.terrainData.size.z;
+            float minZ = 0;
             float x = Random.Range(minX, maxX);
             float z = Random.Range(minZ, maxZ);
             float y = 4.0f;
