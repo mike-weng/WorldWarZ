@@ -9,12 +9,12 @@ public class AICharacterControl : MonoBehaviour
     public Character character { get; private set; } // the character we are controlling
     public Transform target;                                   // target to aim for
 
-    private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
+    private bool jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
     private bool crouch;
-    private bool m_Attack;
-    private bool m_Skill1;
-    private bool m_Skill2;
-    private bool m_Skill3;
+    private bool attack;
+    private bool skill1;
+    private bool skill2;
+    private bool skill3;
 
     private void Start()
     {
@@ -37,8 +37,8 @@ public class AICharacterControl : MonoBehaviour
     {
         if (agent.remainingDistance > agent.stoppingDistance)
         {
-            character.Move(agent.desiredVelocity, crouch, m_Jump, m_Attack, m_Skill1, m_Skill2, m_Skill3);
-            character.UpdateAnimator(agent.desiredVelocity, m_Attack, m_Skill1, m_Skill2, m_Skill3);
+            character.Move(agent.desiredVelocity, crouch, jump, attack, skill1, skill2, skill3);
+            character.UpdateAnimator(agent.desiredVelocity, attack, skill1, skill2, skill3);
         }
         else
         {
@@ -47,25 +47,22 @@ public class AICharacterControl : MonoBehaviour
                 float randomIndex = Random.Range(0, 2);
                 if (randomIndex == 0)
                 {
-                    m_Attack = true;
-                    print("normal");
-
+                    attack = true;
                 }
                 else if (randomIndex == 1)
                 {
-                    m_Skill1 = true;
-                    print("skill1");
+                    skill1 = true;
                 }
             }
-            character.Move(Vector3.zero, crouch, m_Jump, m_Attack, m_Skill1, m_Skill2, m_Skill3);
-            character.UpdateAnimator(Vector3.zero, m_Attack, m_Skill1, m_Skill2, m_Skill3);
+            character.Move(Vector3.zero, crouch, jump, attack, skill1, skill2, skill3);
+            character.UpdateAnimator(Vector3.zero, attack, skill1, skill2, skill3);
         }
 
         crouch = false;
-        m_Attack = false;
-        m_Skill1 = false;
-        m_Skill2 = false;
-        m_Skill3 = false;
+        attack = false;
+        skill1 = false;
+        skill2 = false;
+        skill3 = false;
     }
 
 

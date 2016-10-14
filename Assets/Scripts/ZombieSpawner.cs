@@ -6,6 +6,7 @@ public class ZombieSpawner : MonoBehaviour {
     public float spawnTime = 10f;
     public int numPerSpawn = 5;
     public GameObject zombie;
+    public float spawnRange = 100;
     // Use this for initialization
     void Start () {
         terrain = FindObjectOfType<Terrain>();
@@ -18,11 +19,12 @@ public class ZombieSpawner : MonoBehaviour {
 	}
 
     void SpawnZombie() {
+        PlayerCharacter player = FindObjectOfType<PlayerCharacter>();
         for (int i = 0; i < numPerSpawn; i++) {
-            float maxX = terrain.terrainData.size.x;
-            float minX = 0;
-            float maxZ = terrain.terrainData.size.z;
-            float minZ = 0;
+            float maxX = player.transform.position.x + spawnRange;
+            float minX = player.transform.position.x - spawnRange;
+            float maxZ = player.transform.position.z + spawnRange;
+            float minZ = player.transform.position.z - spawnRange;
             float x = Random.Range(minX, maxX);
             float z = Random.Range(minZ, maxZ);
             float y = 4.0f;

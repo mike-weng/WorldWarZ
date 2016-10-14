@@ -11,21 +11,30 @@ public class MeleeSlash : Skill
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-
+        base.Update();
     }
 
     public override void HandlePhysics()
     {
-        skillCollider.enabled = true;
+        if (!isExecuting)
+        {
+            skillCollider.enabled = true;
+        }
     }
 
     public override void UpdateAnimator()
     {
-        animator.SetTrigger("Skill1");
-        GetComponent<ParticleSystem>().Play();
-        Invoke("DisableCollision", 0.5f);
+        if (!isExecuting)
+        {
+            animator.SetTrigger("Skill1");
+            GetComponent<ParticleSystem>().Play();
+            Invoke("DisableCollision", 0.5f);
+            isExecuting = true;
+
+        }
+
     }
 
     void DisableCollision()
