@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -22,10 +23,20 @@ public class Health : MonoBehaviour
         print("decrease: " + health);
         if (health <= 0)
         {
-            Character character = GetComponent<Character>();
-            character.Die();
+			Character character = GetComponent<Character>();
+			character.Die();
+			if (GetComponent<PlayerCharacter> ()) {
+				// load scenes
+				Invoke("LoadWinScene", 3.0f);
+			}
+
         }
     }
+
+	void LoadWinScene() {
+		SceneManager.LoadScene ("WinScene");
+
+	}
 
     public void IncreaseHealth(float value)
     {

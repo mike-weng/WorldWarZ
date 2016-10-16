@@ -111,6 +111,7 @@
      <Compile Include="Assets\Scripts\StaticCharge.cs" />
      <Compile Include="Assets\Scripts\StatusEffect.cs" />
      <Compile Include="Assets\Scripts\VirtualJoystick.cs" />
+     <Compile Include="Assets\Scripts\WinSceneScript.cs" />
      <Compile Include="Assets\Scripts\ZombieBite.cs" />
      <Compile Include="Assets\Scripts\ZombieCharacter.cs" />
      <Compile Include="Assets\Scripts\ZombieSpawner.cs" />

@@ -91,3 +91,20 @@
 /Users/Mike/Desktop/School/Year 3/Semester 2/Graphics and Interation/Project 2/team-thrall/WorldWarZ/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Mike/Desktop/School/Year 3/Semester 2/Graphics and Interation/Project 2/team-thrall/WorldWarZ/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Mike/Desktop/School/Year 3/Semester 2/Graphics and Interation/Project 2/team-thrall/WorldWarZ/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/davidmurges/Desktop/WorldWarZ/obj/Debug/Assembly-CSharp.dll
+/Users/davidmurges/Desktop/WorldWarZ/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/UnityEngine.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/UnityEditor.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Mono.Cecil.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Unity.DataContract.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/davidmurges/Desktop/WorldWarZ/Temp/bin/Debug/Assembly-CSharp.dll
