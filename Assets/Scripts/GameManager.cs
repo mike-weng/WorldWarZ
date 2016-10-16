@@ -19,10 +19,17 @@ public class GameManager : MonoBehaviour {
         timePast += Time.deltaTime;
 		Slider timeSlider = GameObject.Find ("TimeSlider").GetComponent<Slider>();
         timeSlider.value = timePast;
-        if (timePast >= timeLimit)
+		float score = FindObjectOfType<GameManager> ().numKills;
+
+		if (timePast >= timeLimit)
         {
-            //load scene
-			SceneManager.LoadScene("WinScene");
+			if (score >= 50) {
+				//load scene
+				SceneManager.LoadScene("WinScene");
+			} else {
+				//load scene
+				SceneManager.LoadScene("LoseScene");
+			}
         }
     }
 

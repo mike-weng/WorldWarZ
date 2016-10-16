@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\LoseScript.cs" />
      <Compile Include="Assets\Scripts\MeleeCast.cs" />
      <Compile Include="Assets\Scripts\MeleeCharge.cs" />
      <Compile Include="Assets\Scripts\MeleeNormalAttack.cs" />

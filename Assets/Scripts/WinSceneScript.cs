@@ -24,7 +24,7 @@ public class WinSceneScript : MonoBehaviour {
 	void Update(){
 		timer += Time.deltaTime;
 
-		if (timer >= 5.0f) {
+		if (timer >= 8.0f) {
 			SceneManager.LoadScene ("MenuScene");
 		}
 	}

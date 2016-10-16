@@ -25,14 +25,22 @@ public class Health : MonoBehaviour
         {
             Character character = GetComponent<Character>();
             character.Die();
-            GameManager gameManager = FindObjectOfType<GameManager>();
-            gameManager.AddNumKills();
-            Invoke("DestroyZombie", 5.0f);
-            isDead = true;
+			if (GetComponent<ZombieCharacter> ()) {
+				GameManager gameManager = FindObjectOfType<GameManager>();
+				gameManager.AddNumKills();
+
+			}
+			isDead = true;
+			Invoke("DestroyCharacter", 5.0f);
+
         }
     }
 
-    void DestroyZombie() {
+    void DestroyCharacter() {
+		if (GetComponent<PlayerCharacter> ()) {
+			// load scene
+			SceneManager.LoadScene("LoseScene");
+		}
         Destroy(this.gameObject);
     }
 
