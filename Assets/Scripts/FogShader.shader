@@ -1,55 +1,50 @@
-﻿Shader "Custom/Fog" {
-	SubShader{
-		Pass{
+﻿Shader "Custom/FogShader" {
+	Properties{
+		_MainTex("Base (RGB)", 2D) = "white" {}
+		_Color("Color", Color) = (1, 1, 1, 1)
+		_Cutoff("Alpha cutoff", Range(0,1)) = 0.5
+	}
+		SubShader{
+		Tags{ "Queue" = "AlphaTest" "IgnoreProjector" = "True" "RenderType" = "TransparentCutout" }
+		Fog{ Mode  Off }
+		Cull Off
+		LOD 200
+
 		CGPROGRAM
-#pragma vertex vert
-#pragma fragment frag
+#pragma surface surf Lambert vertex:fogVertex finalcolor:fogColor alphatest:_Cutoff
 
-		//Needed for fog variation to be compiled.
-#pragma multi_compile_fog
+		sampler2D _MainTex;
 
-#include "UnityCG.cginc"
+	uniform half4 unity_FogColour;
+	uniform half4 unity_FogStart;
+	uniform half4 unity_FogEnd;
+	uniform half4 unity_FogDensity;
+	uniform half4 _Color;
 
-		struct vertexInput {
-		float4 vertex : POSITION;
-		float4 texcoord0 : TEXCOORD0;
+	struct Input {
+		float2 uv_MainTex;
+		half fogFactor;
 	};
 
-	struct fragmentInput {
-		float4 position : SV_POSITION;
-		float4 texcoord0 : TEXCOORD0;
-
-		//Used to pass fog amount around number should be a free texcoord.
-		UNITY_FOG_COORDS(1)
-	};
-
-	fragmentInput vert(vertexInput i) {
-		fragmentInput o;
-		o.position = UnityObjectToClipPos(i.vertex);
-		o.texcoord0 = i.texcoord0;
-
-		//Compute fog amount from clip space position.
-		UNITY_TRANSFER_FOG(o,o.position);
-		return o;
+	void fogVertex(inout appdata_full v, out Input data)
+	{
+		UNITY_INITIALIZE_OUTPUT(Input, data);
+		float cameraVertDist = length(mul(UNITY_MATRIX_MV, v.vertex).xyz);
+		float f = cameraVertDist * unity_FogDensity;
+		data.fogFactor = saturate(1 / pow(2.71828,  f * f));
 	}
 
-	fixed4 frag(fragmentInput i) : SV_Target{
-		fixed4 color = fixed4(i.texcoord0.xy,0,0);
-
-	//Apply fog (additive pass are automatically handled)
-	UNITY_APPLY_FOG(i.fogCoord, color);
-
-	//to handle custom fog color another option would have been 
-	//#ifdef UNITY_PASS_FORWARDADD
-	//  UNITY_APPLY_FOG_COLOR(i.fogCoord, color, float4(0,0,0,0));
-	//#else
-	//  fixed4 myCustomColor = fixed4(0,0,1,0);
-	//  UNITY_APPLY_FOG_COLOR(i.fogCoord, color, myCustomColor);
-	//#endif
-
-	return color;
+	void fogColor(Input IN, SurfaceOutput o, inout fixed4 color)
+	{
+		color.rgb = lerp(unity_FogColor.rgb, color.rgb, IN.fogFactor);
 	}
-		ENDCG
+
+	void surf(Input IN, inout SurfaceOutput o) {
+		half4 c = tex2D(_MainTex, IN.uv_MainTex);
+		o.Albedo = c.rgb * _Color;
+		o.Alpha = c.a;
 	}
+	ENDCG
 	}
+		FallBack "Diffuse"
 }

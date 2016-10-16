@@ -51,11 +51,14 @@ public abstract class Character : MonoBehaviour
 		turnAmount = Mathf.Atan2(move.x, move.z);
 		forwardAmount = move.z;
 
-		ApplyExtraTurnRotation();
+        // Apply Extra Rotaxtion
+        // help the character turn faster (this is in addition to root rotation in the animation)
+        float turnSpeed = Mathf.Lerp(stationaryTurnSpeed, moveTurnSpeed, forwardAmount);
+        transform.Rotate(0, turnAmount * turnSpeed * Time.deltaTime, 0);
 
-		// control and velocity handling is different when grounded and airborne:
-		if (isGrounded)
-		{
+        // control and velocity handling is different when grounded and airborne:
+        if (isGrounded)
+		{                                   
 			HandleGroundedMovement(crouch, jump);
 		}
 		else
@@ -65,7 +68,7 @@ public abstract class Character : MonoBehaviour
 
 		ScaleCapsuleForCrouching(crouch);
 		PreventStandingInLowHeadroom();
-
+        
 	}
 
 
@@ -170,13 +173,6 @@ public abstract class Character : MonoBehaviour
 			animator.applyRootMotion = false;
 			groundCheckDistance = 0.1f;
 		}
-	}
-
-	void ApplyExtraTurnRotation()
-	{
-		// help the character turn faster (this is in addition to root rotation in the animation)
-		float turnSpeed = Mathf.Lerp(stationaryTurnSpeed, moveTurnSpeed, forwardAmount);
-		transform.Rotate(0, turnAmount * turnSpeed * Time.deltaTime, 0);
 	}
 
 
