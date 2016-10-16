@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
 Shader "Custom/PhongShader"
@@ -65,8 +67,8 @@ Shader "Custom/PhongShader"
 		// Note that we have to multiply the normal by the transposed inverse of the world 
 		// transformation matrix (for cases where we have non-uniform scaling; we also don't
 		// care about the "fourth" dimension, because translations don't affect the normal) 
-		o.worldVertex = mul(_World2Object, v.vertex);
-		o.worldNormal = normalize(mul(transpose((float3x3)_World2Object), v.normal.xyz));
+		o.worldVertex = mul(unity_WorldToObject, v.vertex);
+		o.worldNormal = normalize(mul(transpose((float3x3)unity_WorldToObject), v.normal.xyz));
 
 		// Transform vertex in world coordinates to camera coordinates
 		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
