@@ -47,4 +47,13 @@ public class MenuScript : MonoBehaviour {
 	{
 		Application.Quit ();
 	}
+
+	public void ObjectiveButton(){
+		SceneManager.LoadScene ("ObjectiveScene");
+	}
+
+	public void BackButton(){
+		SceneManager.LoadScene ("MenuScene");
+	
+	}
 }

@@ -46,9 +46,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <None Include="Assets\External Assets\Skyboxes\Day-Night Skyboxes\readme.txt" />
+     <None Include="Assets\Scripts\PhongShader.shader" />
+     <None Include="Assets\Scripts\FogShader.shader" />
+     <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Scripts\CelShadingForward.shader" />
+     <None Include="Assets\External Assets\Skyboxes\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
      <None Include="Assets\External Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\External Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\External Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Scripts\WaterShader.shader" />
+     <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\External Assets\MedievalHouse\Readme.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/davidmurges/Desktop/WorldWarZ/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
