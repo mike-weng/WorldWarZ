@@ -13,6 +13,7 @@ public abstract class Character : MonoBehaviour
 	[SerializeField] float animSpeedMultiplier = 1f;
 	[SerializeField] float groundCheckDistance = 0.1f;
 
+    public GameObject playerUI;
 	Rigidbody rigidBody;
 	Animator animator;
 	bool isGrounded;
@@ -36,7 +37,13 @@ public abstract class Character : MonoBehaviour
 		rigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 		origGroundCheckDistance = groundCheckDistance;
 
-	}
+        if (playerUI != null)
+        {
+            GameObject playerUIObject = Instantiate(playerUI) as GameObject;
+            playerUIObject.GetComponent<PlayerUI>().SetTarget(this);
+        }
+
+    }
 
 	public virtual void Move(Vector3 move, bool crouch, bool jump, bool attack, bool skill1, bool skill2, bool skill3)
 	{
@@ -222,6 +229,10 @@ public abstract class Character : MonoBehaviour
     public void Die()
     {
         animator.SetTrigger("Die");
+    }
+
+    public float getHealth() {
+        return GetComponent<Health>().health;
     }
 
 }
