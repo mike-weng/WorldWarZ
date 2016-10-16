@@ -59,12 +59,6 @@ public class SmoothCamera : MonoBehaviour
                     alpha = Mathf.Lerp(alpha, 1.0f, Time.deltaTime * 2.0f);
 
                 }
-                //                if(!string.IsNullOrEmpty(property)) {
-                //                    color.a = Mathf.Clamp(alpha, 0.0f, 1.0f);
-
-                //                    renderer.material.SetColor(property, color);
-
-                //                }
             }
         }
     }

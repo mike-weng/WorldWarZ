@@ -11,20 +11,29 @@ public class MeleeNormalAttack : Skill
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-
+        base.Update();
     }
 
     public override void HandlePhysics()
     {
-        skillCollider.enabled = true;
+        if (!isExecuting)
+        {
+            skillCollider.enabled = true;
+        }
     }
 
     public override void UpdateAnimator()
     {
-        animator.SetTrigger("Attack");
-        Invoke("DisableCollision", 0.1f);
+        if (!isExecuting)
+        {
+            animator.SetTrigger("Attack");
+            Invoke("DisableCollision", 0.1f);
+            isExecuting = true;
+
+        }
+
     }
 
     void DisableCollision()

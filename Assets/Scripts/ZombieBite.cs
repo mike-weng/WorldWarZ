@@ -11,20 +11,26 @@ public class ZombieBite : Skill
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-
+        base.Update();
     }
 
     public override void HandlePhysics()
     {
-        isExecuting = true;
-        Invoke("EnableCollision", 1.0f);
+        if (!isExecuting)
+        {
+            Invoke("EnableCollision", 1.0f);
+        }
     }
 
     public override void UpdateAnimator()
     {
-        animator.SetTrigger("Skill1");
+        if (!isExecuting)
+        {
+            animator.SetTrigger("Skill1");
+            isExecuting = true;
+        }
     }
 
     void EnableCollision()
@@ -36,7 +42,6 @@ public class ZombieBite : Skill
 
     void DisableCollision()
     {
-        isExecuting = false;
         skillCollider.enabled = false;
     }
 

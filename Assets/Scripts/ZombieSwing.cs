@@ -11,20 +11,25 @@ public class ZombieSwing : Skill
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-
+        base.Update();
     }
 
     public override void HandlePhysics()
     {
-        isExecuting = true;
-        Invoke("EnableCollision", 1.0f);
+        if (!isExecuting) {
+            Invoke("EnableCollision", 1.0f);
+        }
     }
 
     public override void UpdateAnimator()
     {
-        animator.SetTrigger("Attack");
+        if (!isExecuting)
+        {
+            animator.SetTrigger("Attack");
+            isExecuting = true;
+        }
     }
 
     void EnableCollision()
@@ -36,7 +41,6 @@ public class ZombieSwing : Skill
 
     void DisableCollision()
     {
-        isExecuting = false;
         skillCollider.enabled = false;
     }
 
