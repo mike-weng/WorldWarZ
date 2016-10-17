@@ -7,7 +7,7 @@ public class MeleeCast : Skill
     public override void Start()
     {
         base.Start();
-        base.changeInLife = 200.0f;
+        base.changeInLife = 200.0f; // set damage value
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class MeleeCast : Skill
     {
         if (!isExecuting)
         {
-            skillCollider.enabled = true;
+            skillCollider.enabled = true; // enable collider
         }
     }
 
@@ -30,7 +30,7 @@ public class MeleeCast : Skill
         {
             animator.SetTrigger("Skill3");
             GetComponent<ParticleSystem>().Play();
-            Invoke("DisableCollision", 0.5f);
+            Invoke("DisableCollision", 0.5f); // disable collider after 0.5s
             isExecuting = true;
         }
 
@@ -48,15 +48,8 @@ public class MeleeCast : Skill
         if (characterComponent)
         {
             this.collidedCharacter = characterObject;
-            characterComponent.TakeImpact();
+            characterComponent.TakeImpact(); // impact animation
             characterObject.GetComponent<Health>().DecreaseHealth(changeInLife);
-            Invoke ("PushBack", 0.3f);
         }
-    }
-
-    void PushBack()
-    {
-        Rigidbody rigidBody = collidedCharacter.GetComponent<Rigidbody>();
-        rigidBody.AddForce((collidedCharacter.transform.position - transform.position) * 5000f);
     }
 }

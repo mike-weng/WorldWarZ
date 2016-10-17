@@ -6,25 +6,26 @@ public abstract class Character : MonoBehaviour
 {
 	[SerializeField] float moveTurnSpeed = 360;
 	[SerializeField] float stationaryTurnSpeed = 180;
-	[SerializeField] float jumpPower = 12f;
+    [SerializeField] float runCycleOffset = 0.2f;
+    [SerializeField] float moveSpeedMultiplier = 1f;
+    [SerializeField] float animSpeedMultiplier = 1f;
+    [SerializeField] float groundCheckDistance = 0.1f;
+    [SerializeField] float jumpPower = 12f;
 	[Range(1f, 4f)][SerializeField] float gravityMultiplier = 2f;
-	[SerializeField] float runCycleOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
-	[SerializeField] float moveSpeedMultiplier = 1f;
-	[SerializeField] float animSpeedMultiplier = 1f;
-	[SerializeField] float groundCheckDistance = 0.1f;
+	
 
     public GameObject playerUI;
 	Rigidbody rigidBody;
 	Animator animator;
-	bool isGrounded;
+    CapsuleCollider capsule;
+    Vector3 groundNormal;
+    Vector3 capsuleCentre;
+    bool isGrounded;
 	float origGroundCheckDistance;
 	const float k_Half = 0.5f;
 	float turnAmount;
 	float forwardAmount;
-	Vector3 groundNormal;
-	float capsuleHeight;
-	Vector3 capsuleCentre;
-	CapsuleCollider capsule;
+    float capsuleHeight;
 	bool crouching;
 
 	void Start()
@@ -37,6 +38,7 @@ public abstract class Character : MonoBehaviour
 		rigidBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 		origGroundCheckDistance = groundCheckDistance;
 
+        // Health bar
         if (playerUI != null)
         {
             GameObject playerUIObject = Instantiate(playerUI) as GameObject;
@@ -201,10 +203,6 @@ public abstract class Character : MonoBehaviour
 	void CheckGroundStatus()
 	{
 		RaycastHit hitInfo;
-		#if UNITY_EDITOR
-		// helper to visualise the ground check ray in the scene view
-		Debug.DrawLine(transform.position + (Vector3.up * 0.1f), transform.position + (Vector3.up * 0.1f) + (Vector3.down * groundCheckDistance));
-		#endif
 		// 0.1f is a small offset to start the ray from inside the character
 		// it is also good to note that the transform position in the sample assets is at the base of the character
 		if (Physics.Raycast(transform.position + (Vector3.up * 0.1f), Vector3.down, out hitInfo, groundCheckDistance))
@@ -221,16 +219,19 @@ public abstract class Character : MonoBehaviour
 		}
 	}
 
+    // impact animation
     public void TakeImpact()
     {
         animator.SetTrigger("Impact");
     }
 
+    // die animation
     public void Die()
     {
         animator.SetTrigger("Die");
     }
-
+    
+    // health
     public float getHealth() {
         return GetComponent<Health>().health;
     }

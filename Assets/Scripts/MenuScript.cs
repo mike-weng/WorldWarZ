@@ -16,7 +16,8 @@ public class MenuScript : MonoBehaviour {
 		startText = startText.GetComponent<Button> ();
 		exitText = exitText.GetComponent<Button> ();
 		quitMenu.enabled = false;
-
+        Text highScore = GameObject.Find("HighScore").GetComponent<Text>();
+        highScore.text = "HIGH SCORE: " + PlayerPrefs.GetFloat("high_score");
 	}
 	
 

@@ -6,16 +6,6 @@ public class Health : MonoBehaviour
 {
     public float health = 100.0f;
     public bool isDead = false;
-    // Use this for initialization
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public void DecreaseHealth(float value)
     {
@@ -24,15 +14,16 @@ public class Health : MonoBehaviour
         if (health <= 0 && !isDead)
         {
             Character character = GetComponent<Character>();
-            character.Die();
+            character.Die();    // play animation
+
 			if (GetComponent<ZombieCharacter> ()) {
+                // if zombie dies add to score
 				GameManager gameManager = FindObjectOfType<GameManager>();
 				gameManager.AddNumKills();
 
 			}
 			isDead = true;
-			Invoke("DestroyCharacter", 5.0f);
-
+			Invoke("DestroyCharacter", 5.0f); // destroy after 5 seconds for animation to play
         }
     }
 
@@ -42,12 +33,6 @@ public class Health : MonoBehaviour
 			SceneManager.LoadScene("LoseScene");
 		}
         Destroy(this.gameObject);
-    }
-
-    public void IncreaseHealth(float value)
-    {
-        health += value;
-        print("increase: " + health);
     }
 
     public void DestroyObject()

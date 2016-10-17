@@ -7,11 +7,11 @@
 # Default behavior is to never overwrite files
 BossWars.sln: 4569B4B02261586B45AA1D468F50B1EB
 BossWars\App.xaml: A1C29CA02BF53DF814CB52F072C9A42E
-BossWars\App.xaml.cs: F27A459C8B135864158022F706557686
+BossWars\App.xaml.cs: modified
 BossWars\BossWars.csproj: 4D4AC41FBE071D551465D7D46DC2D69E
 BossWars\BossWars.csproj.user: modified
 BossWars\MainPage.xaml: 3ACE470CDAA9C667F6AE9398EE8A0AC1
-BossWars\MainPage.xaml.cs: 79A038319FF875FC5D38CB6D3CFEA54A
+BossWars\MainPage.xaml.cs: modified
 BossWars\Package.appxmanifest: A9D45710B69B2DA215B3C3714FA5F88C
 BossWars\project.json: 1D02BC64BAC0D041019673A1C4C51737
 BossWars\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
@@ -30,4 +30,4 @@ BossWars\obj\ARM\Debug\App.xaml: 3991EE95E5FB2F5E48D4D781E3705D6B
 BossWars\obj\ARM\Debug\MainPage.xaml: A0EE7ABE3560480823FDEDA6DA1555D2
 BossWars\obj\x86\Master\App.xaml: 3991EE95E5FB2F5E48D4D781E3705D6B
 BossWars\obj\x86\Master\MainPage.xaml: A0EE7ABE3560480823FDEDA6DA1555D2
-BossWars\Properties\AssemblyInfo.cs: A65372B301234BC9B40829F43F1A7856
+BossWars\Properties\AssemblyInfo.cs: modified

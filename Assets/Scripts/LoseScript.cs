@@ -7,17 +7,16 @@ public class LoseScript : MonoBehaviour {
 
 	public Text score;
 	public Text lose;
-	float timer =0;
+    public Text highScore;
+
+    float timer = 0;
 	// Use this for initialization
 	void Start () {
-		score = GetComponent<Text> ();
 		score.text = "SCORE: " + FindObjectOfType<GameManager> ().numKills; ;
 		lose.text = "YOU LOSE! THE ZOMBIES ARE TAKING OVER THE WORLD";
-		PlayerCharacter character = FindObjectOfType<PlayerCharacter> ();
+        highScore.text = "HIGH SCORE: " + PlayerPrefs.GetFloat("high_score");
+        PlayerCharacter character = FindObjectOfType<PlayerCharacter> ();
 		character.GetComponent<Animator> ().SetTrigger ("Die");
-
-
-
 	}
 
 

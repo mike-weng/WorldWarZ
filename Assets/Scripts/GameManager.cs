@@ -11,11 +11,13 @@ public class GameManager : MonoBehaviour {
     void Start () {
 		DontDestroyOnLoad (this);
 		Slider timeSlider = GameObject.Find ("TimeSlider").GetComponent<Slider>();
-        timeSlider.maxValue = timeLimit;
+        timeSlider.maxValue = timeLimit;    // set time limit
     }
 
     // Update is called once per frame
     void Update () {
+
+        // update the slider value
         timePast += Time.deltaTime;
 		Slider timeSlider = GameObject.Find ("TimeSlider").GetComponent<Slider>();
         timeSlider.value = timePast;
@@ -23,20 +25,21 @@ public class GameManager : MonoBehaviour {
 
 		if (timePast >= timeLimit)
         {
-			if (score >= 50) {
-				//load scene
-				SceneManager.LoadScene("WinScene");
-			} else {
-				//load scene
-				SceneManager.LoadScene("LoseScene");
-			}
+            SceneManager.LoadScene("WinScene");
         }
     }
 
     public void AddNumKills() {
+        // add score and update text label
         this.numKills = this.numKills + 1;
         GameObject scoreObject = GameObject.Find("NumKills");
         Text scoreText = scoreObject.GetComponent<Text>();
         scoreText.text = "Score: " + numKills;
+        PlayerPrefs.SetFloat("high_score", numKills);
     }
+
+    public void returnToMenu() {
+        SceneManager.LoadScene("MenuScene");
+    }
+
 }
