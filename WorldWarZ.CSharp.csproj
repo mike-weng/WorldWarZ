@@ -91,6 +91,7 @@
     <Compile Include="Assets\Joystick.cs" />
     <Compile Include="Assets\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\DeathScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="Assets\Scripts\Shredder.cs" />
     <Compile Include="Assets\Scripts\Skill.cs" />
     <Compile Include="Assets\Scripts\SmoothCamera.cs" />
+    <Compile Include="Assets\Scripts\SphereController.cs" />
     <Compile Include="Assets\Scripts\VirtualJoystick.cs" />
     <Compile Include="Assets\Scripts\WinSceneScript.cs" />
     <Compile Include="Assets\Scripts\ZombieBite.cs" />

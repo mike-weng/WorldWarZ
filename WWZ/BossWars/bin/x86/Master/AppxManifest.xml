@@ -20,6 +20,7 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="AB" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="BossWars.exe" EntryPoint="BossWars.App">

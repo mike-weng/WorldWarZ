@@ -39,12 +39,17 @@ public class MenuScript : MonoBehaviour {
 		exitText.enabled = true;
 	}
 
-	public void StartLevel ()
+	public void LoadCharacterMode ()
 	{
 		SceneManager.LoadScene ("1_training");
 	}
 
-	public void ExitGame ()
+    public void LoadBallMode()
+    {
+        SceneManager.LoadScene("2_training");
+    }
+
+    public void ExitGame ()
 	{
 		Application.Quit ();
 	}
