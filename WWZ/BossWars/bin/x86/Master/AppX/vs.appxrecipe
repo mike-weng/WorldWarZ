@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Master\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-19T08:56:45.142</Modified>
+      <Modified>2016-10-20T14:46:12.984</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Master\BossWars.exe">
       <PackagePath>entrypoint\BossWars.exe</PackagePath>
-      <Modified>2016-10-19T08:55:13.244</Modified>
+      <Modified>2016-10-20T14:44:37.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -499,32 +499,32 @@
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-16T12:48:54.405</Modified>
+      <Modified>2016-10-06T23:08:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-16T12:48:54.406</Modified>
+      <Modified>2016-10-05T01:06:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-16T12:48:54.407</Modified>
+      <Modified>2016-10-05T01:07:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-16T12:48:54.408</Modified>
+      <Modified>2016-10-05T01:02:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-16T12:48:54.408</Modified>
+      <Modified>2016-10-05T01:05:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-16T12:48:54.409</Modified>
+      <Modified>2016-10-05T01:07:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -532,447 +532,447 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.caw">
       <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.caw</PackagePath>
-      <Modified>2016-10-19T08:52:07.167</Modified>
+      <Modified>2016-10-20T14:43:13.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.caw">
       <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.caw</PackagePath>
-      <Modified>2016-10-19T08:52:07.176</Modified>
+      <Modified>2016-10-20T14:43:13.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.caw">
       <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.caw</PackagePath>
-      <Modified>2016-10-19T08:52:07.186</Modified>
+      <Modified>2016-10-20T14:43:13.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.caw">
       <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.caw</PackagePath>
-      <Modified>2016-10-19T08:52:07.199</Modified>
+      <Modified>2016-10-20T14:43:13.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.caw">
       <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.caw</PackagePath>
-      <Modified>2016-10-19T08:52:10.810</Modified>
+      <Modified>2016-10-20T14:43:19.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.caw">
       <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.caw</PackagePath>
-      <Modified>2016-10-19T08:52:10.821</Modified>
+      <Modified>2016-10-20T14:43:19.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.caw">
       <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.caw</PackagePath>
-      <Modified>2016-10-19T08:52:10.832</Modified>
+      <Modified>2016-10-20T14:43:19.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.caw">
       <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.caw</PackagePath>
-      <Modified>2016-10-19T08:52:10.842</Modified>
+      <Modified>2016-10-20T14:43:19.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.caw">
       <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.caw</PackagePath>
-      <Modified>2016-10-19T08:52:19.521</Modified>
+      <Modified>2016-10-20T14:43:24.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.caw">
       <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.caw</PackagePath>
-      <Modified>2016-10-19T08:52:19.533</Modified>
+      <Modified>2016-10-20T14:43:24.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.caw">
       <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.caw</PackagePath>
-      <Modified>2016-10-19T08:52:19.549</Modified>
+      <Modified>2016-10-20T14:43:24.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.caw">
       <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.caw</PackagePath>
-      <Modified>2016-10-19T08:52:19.559</Modified>
+      <Modified>2016-10-20T14:43:24.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.caw">
       <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.caw</PackagePath>
-      <Modified>2016-10-19T08:53:28.119</Modified>
+      <Modified>2016-10-20T14:43:29.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.caw">
       <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.caw</PackagePath>
-      <Modified>2016-10-19T08:53:28.129</Modified>
+      <Modified>2016-10-20T14:43:29.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.caw">
       <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.caw</PackagePath>
-      <Modified>2016-10-19T08:53:28.138</Modified>
+      <Modified>2016-10-20T14:43:29.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.caw">
       <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.caw</PackagePath>
-      <Modified>2016-10-19T08:53:28.150</Modified>
+      <Modified>2016-10-20T14:43:29.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.ecm">
       <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:07.168</Modified>
+      <Modified>2016-10-20T14:43:13.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.ecm">
       <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:07.178</Modified>
+      <Modified>2016-10-20T14:43:13.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.ecm">
       <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:07.187</Modified>
+      <Modified>2016-10-20T14:43:13.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.ecm">
       <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:07.200</Modified>
+      <Modified>2016-10-20T14:43:13.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.ecm">
       <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:10.811</Modified>
+      <Modified>2016-10-20T14:43:19.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.ecm">
       <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:10.823</Modified>
+      <Modified>2016-10-20T14:43:19.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.ecm">
       <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:10.833</Modified>
+      <Modified>2016-10-20T14:43:19.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.ecm">
       <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:10.844</Modified>
+      <Modified>2016-10-20T14:43:19.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.ecm">
       <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:19.523</Modified>
+      <Modified>2016-10-20T14:43:24.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.ecm">
       <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:19.536</Modified>
+      <Modified>2016-10-20T14:43:24.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.ecm">
       <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:19.550</Modified>
+      <Modified>2016-10-20T14:43:24.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.ecm">
       <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.ecm</PackagePath>
-      <Modified>2016-10-19T08:52:19.560</Modified>
+      <Modified>2016-10-20T14:43:24.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.ecm">
       <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.ecm</PackagePath>
-      <Modified>2016-10-19T08:53:28.121</Modified>
+      <Modified>2016-10-20T14:43:29.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.ecm">
       <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.ecm</PackagePath>
-      <Modified>2016-10-19T08:53:28.131</Modified>
+      <Modified>2016-10-20T14:43:29.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.ecm">
       <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.ecm</PackagePath>
-      <Modified>2016-10-19T08:53:28.139</Modified>
+      <Modified>2016-10-20T14:43:29.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.ecm">
       <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.ecm</PackagePath>
-      <Modified>2016-10-19T08:53:28.152</Modified>
+      <Modified>2016-10-20T14:43:29.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.iws.sse">
       <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.170</Modified>
+      <Modified>2016-10-20T14:43:13.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rsc.sse">
       <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.173</Modified>
+      <Modified>2016-10-20T14:43:13.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.iws.sse">
       <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.179</Modified>
+      <Modified>2016-10-20T14:43:13.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rsc.sse">
       <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.183</Modified>
+      <Modified>2016-10-20T14:43:13.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.iws.sse">
       <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.189</Modified>
+      <Modified>2016-10-20T14:43:13.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rsc.sse">
       <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.192</Modified>
+      <Modified>2016-10-20T14:43:13.373</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\bb\bb537991e0bae4fcc482fd9e09460572.rpc.sse">
-      <PackagePath>Data\GI\level2\bb\bb537991e0bae4fcc482fd9e09460572.rpc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.197</Modified>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.rpc.sse">
+      <PackagePath>Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:43:13.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.iws.sse">
       <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.202</Modified>
+      <Modified>2016-10-20T14:43:13.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rsc.sse">
       <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:07.205</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\50\505c134fdeb9e9d3ea6349d24dee3844.rpc.sse">
-      <PackagePath>Data\GI\level3\50\505c134fdeb9e9d3ea6349d24dee3844.rpc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.808</Modified>
+      <Modified>2016-10-20T14:43:13.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.iws.sse">
       <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.813</Modified>
+      <Modified>2016-10-20T14:43:19.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rsc.sse">
       <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.817</Modified>
+      <Modified>2016-10-20T14:43:19.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.rpc.sse">
+      <PackagePath>Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:43:19.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.iws.sse">
       <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.824</Modified>
+      <Modified>2016-10-20T14:43:19.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rsc.sse">
       <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.828</Modified>
+      <Modified>2016-10-20T14:43:19.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.iws.sse">
       <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.835</Modified>
+      <Modified>2016-10-20T14:43:19.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rsc.sse">
       <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.839</Modified>
+      <Modified>2016-10-20T14:43:19.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.iws.sse">
       <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.846</Modified>
+      <Modified>2016-10-20T14:43:19.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rsc.sse">
       <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:10.850</Modified>
+      <Modified>2016-10-20T14:43:19.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.iws.sse">
       <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.525</Modified>
+      <Modified>2016-10-20T14:43:24.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rsc.sse">
       <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.529</Modified>
+      <Modified>2016-10-20T14:43:24.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.iws.sse">
       <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.537</Modified>
+      <Modified>2016-10-20T14:43:24.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.rsc.sse">
       <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.541</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\94\949d254a6d7dcc9a517d094fc136e49a.rpc.sse">
-      <PackagePath>Data\GI\level4\94\949d254a6d7dcc9a517d094fc136e49a.rpc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.547</Modified>
+      <Modified>2016-10-20T14:43:24.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.iws.sse">
       <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.552</Modified>
+      <Modified>2016-10-20T14:43:24.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rsc.sse">
       <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.556</Modified>
+      <Modified>2016-10-20T14:43:24.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.iws.sse">
       <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.562</Modified>
+      <Modified>2016-10-20T14:43:24.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rsc.sse">
       <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:52:19.566</Modified>
+      <Modified>2016-10-20T14:43:24.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.rpc.sse">
+      <PackagePath>Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:43:24.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.iws.sse">
       <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.123</Modified>
+      <Modified>2016-10-20T14:43:29.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rsc.sse">
       <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.126</Modified>
+      <Modified>2016-10-20T14:43:29.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.iws.sse">
       <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.132</Modified>
+      <Modified>2016-10-20T14:43:29.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rsc.sse">
       <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.136</Modified>
+      <Modified>2016-10-20T14:43:29.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.iws.sse">
       <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.141</Modified>
+      <Modified>2016-10-20T14:43:29.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rsc.sse">
       <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.144</Modified>
+      <Modified>2016-10-20T14:43:29.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\b4\b4188e6d9711af4519e72f240ec4e83b.rpc.sse">
-      <PackagePath>Data\GI\level5\b4\b4188e6d9711af4519e72f240ec4e83b.rpc.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.148</Modified>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.rpc.sse">
+      <PackagePath>Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.rpc.sse</PackagePath>
+      <Modified>2016-10-20T14:43:29.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.iws.sse">
       <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.iws.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.153</Modified>
+      <Modified>2016-10-20T14:43:29.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rsc.sse">
       <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rsc.sse</PackagePath>
-      <Modified>2016-10-19T08:53:28.158</Modified>
+      <Modified>2016-10-20T14:43:29.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rgb">
       <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:07.171</Modified>
+      <Modified>2016-10-20T14:43:13.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rgb">
       <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:07.180</Modified>
+      <Modified>2016-10-20T14:43:13.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rgb">
       <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:07.190</Modified>
+      <Modified>2016-10-20T14:43:13.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rgb">
       <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:07.203</Modified>
+      <Modified>2016-10-20T14:43:13.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rgb">
       <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:10.815</Modified>
+      <Modified>2016-10-20T14:43:19.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rgb">
       <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:10.826</Modified>
+      <Modified>2016-10-20T14:43:19.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rgb">
       <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:10.837</Modified>
+      <Modified>2016-10-20T14:43:19.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rgb">
       <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:10.848</Modified>
+      <Modified>2016-10-20T14:43:19.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rgb">
       <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:19.526</Modified>
+      <Modified>2016-10-20T14:43:24.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.rgb">
       <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:19.539</Modified>
+      <Modified>2016-10-20T14:43:24.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rgb">
       <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:19.553</Modified>
+      <Modified>2016-10-20T14:43:24.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rgb">
       <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.rgb</PackagePath>
-      <Modified>2016-10-19T08:52:19.564</Modified>
+      <Modified>2016-10-20T14:43:24.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rgb">
       <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.rgb</PackagePath>
-      <Modified>2016-10-19T08:53:28.124</Modified>
+      <Modified>2016-10-20T14:43:29.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rgb">
       <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.rgb</PackagePath>
-      <Modified>2016-10-19T08:53:28.133</Modified>
+      <Modified>2016-10-20T14:43:29.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rgb">
       <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.rgb</PackagePath>
-      <Modified>2016-10-19T08:53:28.142</Modified>
+      <Modified>2016-10-20T14:43:29.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rgb">
       <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.rgb</PackagePath>
-      <Modified>2016-10-19T08:53:28.155</Modified>
+      <Modified>2016-10-20T14:43:29.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.vis">
       <PackagePath>Data\GI\level2\8c\8c73594b014f087f893322771b1fbf52.vis</PackagePath>
-      <Modified>2016-10-19T08:52:07.174</Modified>
+      <Modified>2016-10-20T14:43:13.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.vis">
       <PackagePath>Data\GI\level2\a9\a9036418ccd03a39d49b6f0ce6e25045.vis</PackagePath>
-      <Modified>2016-10-19T08:52:07.184</Modified>
+      <Modified>2016-10-20T14:43:13.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.vis">
       <PackagePath>Data\GI\level2\ab\ab7d31c91cfb3f78bd71af790f781ecf.vis</PackagePath>
-      <Modified>2016-10-19T08:52:07.194</Modified>
+      <Modified>2016-10-20T14:43:13.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.vis">
       <PackagePath>Data\GI\level2\fd\fdaedf9a83ad32b60da2949b0a93a6c0.vis</PackagePath>
-      <Modified>2016-10-19T08:52:07.206</Modified>
+      <Modified>2016-10-20T14:43:13.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.vis">
       <PackagePath>Data\GI\level3\5f\5ff929044018bb1d518bf31d94c46351.vis</PackagePath>
-      <Modified>2016-10-19T08:52:10.819</Modified>
+      <Modified>2016-10-20T14:43:19.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.vis">
       <PackagePath>Data\GI\level3\c6\c6cbff837d105c390434aab9b480140a.vis</PackagePath>
-      <Modified>2016-10-19T08:52:10.830</Modified>
+      <Modified>2016-10-20T14:43:19.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.vis">
       <PackagePath>Data\GI\level3\ef\ef0f092d8c7074df1e633d9086eacf9f.vis</PackagePath>
-      <Modified>2016-10-19T08:52:10.841</Modified>
+      <Modified>2016-10-20T14:43:19.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.vis">
       <PackagePath>Data\GI\level3\f5\f54ac72d29580d76cd50dc53fcb41b56.vis</PackagePath>
-      <Modified>2016-10-19T08:52:10.851</Modified>
+      <Modified>2016-10-20T14:43:19.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.vis">
       <PackagePath>Data\GI\level4\3a\3a36f629a71944b6536286c0b49bc4b7.vis</PackagePath>
-      <Modified>2016-10-19T08:52:19.530</Modified>
+      <Modified>2016-10-20T14:43:24.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\55\55101229332f240bf1ced481edde6242.vis">
       <PackagePath>Data\GI\level4\55\55101229332f240bf1ced481edde6242.vis</PackagePath>
-      <Modified>2016-10-19T08:52:19.543</Modified>
+      <Modified>2016-10-20T14:43:24.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.vis">
       <PackagePath>Data\GI\level4\a9\a9aa8f431dd64e4ab1a42f24a054456b.vis</PackagePath>
-      <Modified>2016-10-19T08:52:19.558</Modified>
+      <Modified>2016-10-20T14:43:24.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.vis">
       <PackagePath>Data\GI\level4\bb\bb7bfd008cbed0535e9f1ce34524dfbb.vis</PackagePath>
-      <Modified>2016-10-19T08:52:19.569</Modified>
+      <Modified>2016-10-20T14:43:24.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.vis">
       <PackagePath>Data\GI\level5\52\528d1c34fed2b41097d5e97e894246ea.vis</PackagePath>
-      <Modified>2016-10-19T08:53:28.127</Modified>
+      <Modified>2016-10-20T14:43:29.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.vis">
       <PackagePath>Data\GI\level5\60\6084331c63353cf799db9832231d0c0d.vis</PackagePath>
-      <Modified>2016-10-19T08:53:28.137</Modified>
+      <Modified>2016-10-20T14:43:29.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.vis">
       <PackagePath>Data\GI\level5\8a\8a75baa6185fc0304a0ccc4c7c682bcf.vis</PackagePath>
-      <Modified>2016-10-19T08:53:28.145</Modified>
+      <Modified>2016-10-20T14:43:29.693</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.vis">
       <PackagePath>Data\GI\level5\e4\e429e6ebf3c4ac4b640a3e278210c397.vis</PackagePath>
-      <Modified>2016-10-19T08:53:28.159</Modified>
+      <Modified>2016-10-20T14:43:29.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\bb\bb537991e0bae4fcc482fd9e09460572.pos">
-      <PackagePath>Data\GI\level2\bb\bb537991e0bae4fcc482fd9e09460572.pos</PackagePath>
-      <Modified>2016-10-19T08:52:07.195</Modified>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.pos">
+      <PackagePath>Data\GI\level2\e7\e7b1129f05a8c0153c8faef2d71fc29d.pos</PackagePath>
+      <Modified>2016-10-20T14:43:13.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\50\505c134fdeb9e9d3ea6349d24dee3844.pos">
-      <PackagePath>Data\GI\level3\50\505c134fdeb9e9d3ea6349d24dee3844.pos</PackagePath>
-      <Modified>2016-10-19T08:52:10.806</Modified>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.pos">
+      <PackagePath>Data\GI\level3\a6\a60b72522c6cbf0a3658b0a131bb7fb6.pos</PackagePath>
+      <Modified>2016-10-20T14:43:19.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\94\949d254a6d7dcc9a517d094fc136e49a.pos">
-      <PackagePath>Data\GI\level4\94\949d254a6d7dcc9a517d094fc136e49a.pos</PackagePath>
-      <Modified>2016-10-19T08:52:19.545</Modified>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.pos">
+      <PackagePath>Data\GI\level4\bc\bcbac9d607eb70adc7f831b2aeb2151b.pos</PackagePath>
+      <Modified>2016-10-20T14:43:24.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\b4\b4188e6d9711af4519e72f240ec4e83b.pos">
-      <PackagePath>Data\GI\level5\b4\b4188e6d9711af4519e72f240ec4e83b.pos</PackagePath>
-      <Modified>2016-10-19T08:53:28.147</Modified>
+    <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.pos">
+      <PackagePath>Data\GI\level5\e2\e26b6bcff3d0eca1401cfc94eaad465b.pos</PackagePath>
+      <Modified>2016-10-20T14:43:29.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2016-10-19T08:53:28.778</Modified>
+      <Modified>2016-10-20T14:43:30.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2016-10-19T08:51:57.051</Modified>
+      <Modified>2016-10-20T14:43:07.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level1">
       <PackagePath>Data\level1</PackagePath>
-      <Modified>2016-10-19T08:51:57.594</Modified>
+      <Modified>2016-10-20T14:43:07.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level2">
       <PackagePath>Data\level2</PackagePath>
-      <Modified>2016-10-19T08:52:07.401</Modified>
+      <Modified>2016-10-20T14:43:13.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level3">
       <PackagePath>Data\level3</PackagePath>
-      <Modified>2016-10-19T08:52:10.976</Modified>
+      <Modified>2016-10-20T14:43:19.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level4">
       <PackagePath>Data\level4</PackagePath>
-      <Modified>2016-10-19T08:52:19.698</Modified>
+      <Modified>2016-10-20T14:43:24.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level5">
       <PackagePath>Data\level5</PackagePath>
-      <Modified>2016-10-19T08:53:28.255</Modified>
+      <Modified>2016-10-20T14:43:29.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -980,111 +980,111 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2016-10-19T08:54:17.916</Modified>
+      <Modified>2016-10-20T14:43:40.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2016-10-19T08:53:29.138</Modified>
+      <Modified>2016-10-20T14:43:30.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2016-10-19T08:53:29.422</Modified>
+      <Modified>2016-10-20T14:43:30.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets1.assets">
       <PackagePath>Data\sharedassets1.assets</PackagePath>
-      <Modified>2016-10-19T08:53:29.444</Modified>
+      <Modified>2016-10-20T14:43:30.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets2.assets">
       <PackagePath>Data\sharedassets2.assets</PackagePath>
-      <Modified>2016-10-19T08:54:13.238</Modified>
+      <Modified>2016-10-20T14:43:39.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets3.assets">
       <PackagePath>Data\sharedassets3.assets</PackagePath>
-      <Modified>2016-10-19T08:54:13.310</Modified>
+      <Modified>2016-10-20T14:43:39.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets4.assets">
       <PackagePath>Data\sharedassets4.assets</PackagePath>
-      <Modified>2016-10-19T08:54:13.319</Modified>
+      <Modified>2016-10-20T14:43:39.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets5.assets">
       <PackagePath>Data\sharedassets5.assets</PackagePath>
-      <Modified>2016-10-19T08:54:13.328</Modified>
+      <Modified>2016-10-20T14:43:39.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2016-10-19T08:51:57.050</Modified>
+      <Modified>2016-10-20T14:43:07.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level1.resS">
       <PackagePath>Data\level1.resS</PackagePath>
-      <Modified>2016-10-19T08:51:57.593</Modified>
+      <Modified>2016-10-20T14:43:07.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level2.resS">
       <PackagePath>Data\level2.resS</PackagePath>
-      <Modified>2016-10-19T08:52:07.397</Modified>
+      <Modified>2016-10-20T14:43:13.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level3.resS">
       <PackagePath>Data\level3.resS</PackagePath>
-      <Modified>2016-10-19T08:52:10.972</Modified>
+      <Modified>2016-10-20T14:43:19.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level4.resS">
       <PackagePath>Data\level4.resS</PackagePath>
-      <Modified>2016-10-19T08:52:19.691</Modified>
+      <Modified>2016-10-20T14:43:24.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\level5.resS">
       <PackagePath>Data\level5.resS</PackagePath>
-      <Modified>2016-10-19T08:53:28.250</Modified>
+      <Modified>2016-10-20T14:43:29.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2016-10-19T08:53:29.421</Modified>
+      <Modified>2016-10-20T14:43:30.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets1.assets.resS">
       <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
-      <Modified>2016-10-19T08:53:29.444</Modified>
+      <Modified>2016-10-20T14:43:30.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\sharedassets2.assets.resS">
       <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
-      <Modified>2016-10-19T08:54:13.223</Modified>
+      <Modified>2016-10-20T14:43:39.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2016-10-19T08:54:42.123</Modified>
+      <Modified>2016-10-20T14:43:56.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Master\BossWars.xr.xml">
       <PackagePath>BossWars.xr.xml</PackagePath>
-      <Modified>2016-10-16T12:48:56.295</Modified>
+      <Modified>2016-10-20T13:52:57.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2016-10-16T03:47:26.359</Modified>
+      <Modified>2016-10-20T05:01:31.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Master\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-10-19T08:55:18.570</Modified>
+      <Modified>2016-10-20T13:53:04.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2016-10-19T08:56:44.270</Modified>
+      <Modified>2016-10-20T14:46:11.693</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\Assembly-UnityScript.dll">
       <PackagePath>Assembly-UnityScript.dll</PackagePath>
-      <Modified>2016-10-19T08:56:44.275</Modified>
+      <Modified>2016-10-20T14:46:11.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2016-10-19T08:56:44.612</Modified>
+      <Modified>2016-10-20T14:46:12.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2016-10-19T08:56:44.704</Modified>
+      <Modified>2016-10-20T14:46:12.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2016-10-19T08:56:44.758</Modified>
+      <Modified>2016-10-20T14:46:12.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Comp30019\Desktop\WorldWarZ\WWZ\BossWars\bin\x86\Master\Core\BossWars.exe">
       <PackagePath>BossWars.exe</PackagePath>
-      <Modified>2016-10-19T08:56:45.099</Modified>
+      <Modified>2016-10-20T14:46:12.918</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

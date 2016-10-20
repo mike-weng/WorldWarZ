@@ -1,7 +1,22 @@
-Game description
-This is a 2.5d zombie survival game. The objective of this game is to survive massive zombies attack
-for 5 minutes and kill as many zombies as possible. There will be a score count for each
-zombie you kill. The terrain is huge enough for you to explore and play around.
+World War Z
+
+1.What the application does
+
+We implemented a zombie survival game in which a knight lost on the country has to survive against an infinite amount of zombies that try to kill him. The user will control the knight and has 4 attacks to choose from to defend himself. We keep track on the amount of zombies the player has killed and add save the score. Also we are going to keep track of the highest score achieved by a player. This high score will be displayed in the main menu. We implemented a timer which runs for 5 minutes, which is the time the player is given to beat the high score. The player wins when he is still alive after the 5 minutes and beat the previous high score. He loses in case he dies or his score is less than the high score. We also added a mini feature that allows you to control a ball instead of the knight which is controlled by the accelerometer. 
+
+2. How to use it
+
+We implemented virtual buttons and a joystick to the interface. On the left side is the joystick that can be rotated around and the character moves accordingly. The attack and jump buttons are on the right side of the screen, making it easy to control the knight with both thumbs. Each button corresponds to a different attack. We implemented a timer on the top of the screen as well as a score count and a quit button that allows the player to leave the game at any time.
+
+3. How we modelled objects and entities
+
+We downloaded the knight (our main player) from mixamo.com as well as its animations. The zombies and their animations were downloaded from the same page. This allowed us to save some time for modelling objects with Maya or Blender. The terrain has been implemented by using the built-in 3d terrain object. Also the grass and trees on the terrain come from the environment asset package within unity. 
+
+4. How we handled graphics and camera motion
+
+We created a couple of shaders, a phong shader, which we used on the rock, which is the starting point of the game. A fog shader which is rendered on the surface of our safe zone. The house at the end of the map has a cel shader attached. The shadow volumes are visible once the player is on the rock. The water around the rock is also made from a shader using the bump mapping technique. For the camera motion we have attached a script to the camera object, which follows the player’s position.
+
+Appendix:
 
 Usage
 	1. git clone https://github.com/mmmk84512/WorldWarZ

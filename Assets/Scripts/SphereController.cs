@@ -12,7 +12,20 @@ public class SphereController : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        GetComponent<Rigidbody>().AddForce(Input.acceleration.x * 5.0f, 0, -Input.acceleration.z * 5.0f);
+
+        //Vector3 dir = Vector3.zero;
+        //dir.x = Input.acceleration.x;
+        //dir.z = -Input.acceleration.z;
+        //if (dir.sqrMagnitude > 1)
+        //    dir.Normalize();
+
+        //dir *= Time.deltaTime;
+        //transform.Translate(dir * 10.0f);
+        // Adding force to rigidbody
+        //GetComponent<Rigidbody>().(movement * 10.0f * Time.deltaTime);
+
+        Vector3 movement = new Vector3(Input.acceleration.x, 0.0f, -Input.acceleration.z);
+        GetComponent<Rigidbody>().AddForce(movement * 1500.0f * Time.deltaTime);
     }
 
     void OnCollisionEnter(Collision col) {

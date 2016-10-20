@@ -19,7 +19,14 @@ public class AICharacterControl : MonoBehaviour
     {
         agent = GetComponentInChildren<NavMeshAgent>();
         character = GetComponent<Character>();
-        this.target = FindObjectOfType<PlayerCharacter>().transform;
+        if (FindObjectOfType<PlayerCharacter>())
+        {
+            this.target = FindObjectOfType<PlayerCharacter>().transform;
+        }
+        else {
+            this.target = FindObjectOfType<SphereCollider>().transform;
+
+        }
         agent.updateRotation = false;
         agent.updatePosition = true;
     }
